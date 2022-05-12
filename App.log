@@ -1,0 +1,34 @@
+[INFO:2022-05-12 14:45:14,041] connect - Connecting to the PostgreSQL database ...
+[ERROR:2022-05-12 14:45:14,045] connect - Got Error could not connect to server: Connection refused
+	Is the server running on host "localhost" (127.0.0.1) and accepting
+	TCP/IP connections on port 5432?. reconnecting 1
+[INFO:2022-05-12 14:45:19,058] connect - Connecting to the PostgreSQL database ...
+[ERROR:2022-05-12 14:45:19,068] connect - Got Error could not connect to server: Connection refused
+	Is the server running on host "localhost" (127.0.0.1) and accepting
+	TCP/IP connections on port 5432?. reconnecting 2
+[INFO:2022-05-12 14:45:24,077] connect - Connecting to the PostgreSQL database ...
+[ERROR:2022-05-12 14:45:24,086] connect - Got Error could not connect to server: Connection refused
+	Is the server running on host "localhost" (127.0.0.1) and accepting
+	TCP/IP connections on port 5432?. reconnecting 3
+[INFO:2022-05-12 14:45:29,100] connect - Connecting to the PostgreSQL database ...
+[ERROR:2022-05-12 14:45:29,109] connect - Got Error could not connect to server: Connection refused
+	Is the server running on host "localhost" (127.0.0.1) and accepting
+	TCP/IP connections on port 5432?. reconnecting 4
+[INFO:2022-05-12 14:45:34,124] connect - Connecting to the PostgreSQL database ...
+[ERROR:2022-05-12 14:45:34,133] connect - Got Error could not connect to server: Connection refused
+	Is the server running on host "localhost" (127.0.0.1) and accepting
+	TCP/IP connections on port 5432?. reconnecting 5
+[INFO:2022-05-12 14:45:39,147] connect - Connecting to the PostgreSQL database ...
+[INFO:2022-05-12 14:45:39,156] connect - failed to connect to database. 5 times failed to attempt connection
+[INFO:2022-05-12 14:45:56,513] connect - Connecting to the PostgreSQL database ...
+[INFO:2022-05-12 14:45:56,527] connect - Database Connected
+[INFO:2022-05-12 14:45:56,530] pg_cursor - pg_cursor created
+[INFO:2022-05-12 14:45:56,533] run - Start collecting data from shopee.co.id
+[INFO:2022-05-12 14:45:59,790] SaveToDatabase - Finished Collecting main category data
+[INFO:2022-05-12 14:46:00,678] SaveToDatabase - Finished Collecting Sub Category data
+[INFO:2022-05-12 14:46:02,970] SaveToDatabase - Finished Collecting product item in category: 11042746
+[INFO:2022-05-12 14:46:05,736] SaveToDatabase - Finished Collecting product item in category: 11043227
+[INFO:2022-05-12 14:46:07,643] SaveToDatabase - Finished Collecting product item in category: 11044223
+[INFO:2022-05-12 14:46:10,646] SaveToDatabase - Finished Collecting product item in category: 11043999
+[INFO:2022-05-12 14:46:12,687] SaveToDatabase - Finished Collecting product item in category: 11044629
+[INFO:2022-05-12 14:46:15,759] SaveToDatabase - Finished Collecting product item in category: 11043092
