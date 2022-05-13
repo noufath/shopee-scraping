@@ -13,7 +13,7 @@ class Db_Connect():
             "user": Config.POSTGRES_USER,
             "password": Config.POSTGRES_PASSWORD
         }
-
+        self.database_url = Config.DATABASE_URL
         self._connection = None
         self._cursor = None
         self.reconnect = reconnect
@@ -26,7 +26,12 @@ class Db_Connect():
         try:
             # connect to the PostgreSQL server
             logger.info("Connecting to the PostgreSQL database ...")
-            self._connection = psycopg2.connect(**self.param_dict)
+
+            if self.database_url != '':
+                self._connection = psycopg2.connect(self.database_url)
+            else:
+                self._connection = psycopg2.connect(**self.param_dict)
+                
             retry_counter = 0
             self._connection.autocommit = False
               

@@ -32,3 +32,21 @@
 [INFO:2022-05-12 14:46:10,646] SaveToDatabase - Finished Collecting product item in category: 11043999
 [INFO:2022-05-12 14:46:12,687] SaveToDatabase - Finished Collecting product item in category: 11044629
 [INFO:2022-05-12 14:46:15,759] SaveToDatabase - Finished Collecting product item in category: 11043092
+[INFO:2022-05-13 20:50:35,529] connect - Connecting to the PostgreSQL database ...
+[INFO:2022-05-13 20:50:35,648] connect - Database Connected
+[INFO:2022-05-13 20:50:35,653] pg_cursor - pg_cursor created
+[INFO:2022-05-13 20:50:35,655] run - Start collecting data from shopee.co.id
+[INFO:2022-05-13 20:50:37,761] SaveToDatabase - Finished Collecting main category data
+[INFO:2022-05-13 20:50:38,759] SaveToDatabase - Finished Collecting Sub Category data
+[INFO:2022-05-13 20:50:45,903] SaveToDatabase - Finished Collecting product item in category: 11042746
+[INFO:2022-05-13 20:50:47,788] SaveToDatabase - Finished Collecting product item in category: 11043227
+[INFO:2022-05-13 20:50:49,709] SaveToDatabase - Finished Collecting product item in category: 11044258
+[INFO:2022-05-13 20:50:53,164] SaveToDatabase - Finished Collecting product item in category: 11044329
+[INFO:2022-05-13 20:51:02,628] SaveToDatabase - Finished Collecting product item in category: 11043608
+[INFO:2022-05-13 20:51:04,699] SaveToDatabase - Finished Collecting product item in category: 11043296
+[INFO:2022-05-13 20:51:11,461] SaveToDatabase - Finished Collecting product item in category: 11044584
+[INFO:2022-05-13 20:51:22,854] SaveToDatabase - Finished Collecting product item in category: 11043660
+[INFO:2022-05-13 20:51:25,877] SaveToDatabase - Finished Collecting product item in category: 11042617
+[INFO:2022-05-13 20:51:30,565] SaveToDatabase - Finished Collecting product item in category: 11042657
+[INFO:2022-05-13 20:51:32,609] SaveToDatabase - Finished Collecting product item in category: 11043958
+[INFO:2022-05-13 20:51:35,476] SaveToDatabase - Finished Collecting product item in category: 11043661

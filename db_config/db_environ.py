@@ -21,7 +21,7 @@ class AppConfig:
     POSTGRES_HOST: str
     POSTGRES_PORT: int
     LIMIT_RETRIES: int
-
+    DATABASE_URL: str
 
     def __init__(self, env):
         for field in self.__annotations__:
