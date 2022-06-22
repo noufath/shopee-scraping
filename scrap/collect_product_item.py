@@ -5,11 +5,12 @@ import applogger
 
 class CollectProductItems():
 
-    def __init__(self, db_connection):
+    def __init__(self, db_connection, is_rowlimited, maxrow_allowed):
         self.db = db_connection
         self.cursor = self.db._cursor
-       
-
+        self.is_rowlimited = is_rowlimited
+        self.maxrow_allowed = maxrow_allowed
+  
         self.GetItems()
 
     def GetItems(self):
@@ -25,7 +26,7 @@ class CollectProductItems():
     
         for raw in _result:
             string_row = clearCatID(raw)
-            CollectProductByCategory(string_row, self.db)
+            CollectProductByCategory(string_row, self.db, self.is_rowlimited, self.maxrow_allowed)
     
         logger.info("Finished collecting product item")
         self.db.close()

@@ -12,7 +12,7 @@ def run(url_category, url_customer, db_connection):
     
     CollectMainCategory(url_category, db_connection)
     CollectSubCategory(url_category, db_connection)
-    CollectProductItems(db_connection)
+    CollectProductItems(db_connection, True, 7000)
     CollectCustomer(url_customer, db_connection)
 
     logger.info("Finished collecting data from shopee.co.id")
